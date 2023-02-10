@@ -142,6 +142,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 0
   particlePrefab: {fileID: 1405788047646470534, guid: fe3ded7232bf04eb3ba654fda18b037d, type: 3}
+--- !u!114 &229462094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229462080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f7610936e7b4b279dabc78095ee4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3056359787981534234, guid: cac651f7d4d9e4001ba9c2af2278dffb, type: 3}
 --- !u!1 &265932860
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +646,7 @@ Transform:
   m_Children:
   - {fileID: 1918602191}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &698832330
 MonoBehaviour:
@@ -751,11 +764,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1607948358418305477, guid: 6b155a525355441f6b3a4f7bba1e1b35, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1607948358418305477, guid: 6b155a525355441f6b3a4f7bba1e1b35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.6
+      value: 14.97
       objectReference: {fileID: 0}
     - target: {fileID: 1607948358418305477, guid: 6b155a525355441f6b3a4f7bba1e1b35, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1178,7 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 603970f97e50c56488ec3c5a6febd940, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 603970f97e50c56488ec3c5a6febd940, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1749,7 +1762,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1918602190
 GameObject:
