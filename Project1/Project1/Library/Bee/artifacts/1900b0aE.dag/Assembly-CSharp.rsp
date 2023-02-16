@@ -116,8 +116,6 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/Tony/Documents/GitHub/CART315/Project1/Project1/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/Tony/Documents/GitHub/CART315/Project1/Project1/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -322,6 +320,8 @@
 -r:"D:/2021.3.18f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/2021.3.18f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/2021.3.18f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"E:/CART315HOME/CART315/Project1/Project1/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"E:/CART315HOME/CART315/Project1/Project1/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -346,6 +346,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Collecting.cs"
+"Assets/enemy.cs"
+"Assets/enemyCollide.cs"
 "Assets/Flashlight.cs"
 "Assets/Mini First Person Controller/Scripts/Components/Crouch.cs"
 "Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
@@ -356,6 +358,7 @@
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/playOnFKey.cs"
 "Assets/points.cs"
+"Assets/restartScene.cs"
 "Assets/Tutorial.cs"
 -langversion:9.0
 
