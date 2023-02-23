@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class goal : MonoBehaviour
 {
     public float count;
+    public float goals;
     Vector3 originalPos;
     public Rigidbody rb;
     // Start is called before the first frame update
@@ -29,6 +30,7 @@ public class goal : MonoBehaviour
             gameObject.transform.position = originalPos;
             rb.isKinematic = true;
             count = 1;
+            goals++;
             Debug.Log(count);
 
         if(count == 1)
@@ -45,4 +47,8 @@ public class goal : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    void OnGUI()
+    {
+        GUI.Label (new Rect(0,600,100,100), "Goals Scored: " + goals);
+    }
 }
