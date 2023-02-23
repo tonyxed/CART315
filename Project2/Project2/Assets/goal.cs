@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class goal : MonoBehaviour
 {
-    public int count = 0;
+    public float count;
+    Vector3 originalPos;
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        originalPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
     // Update is called once per frame
@@ -20,17 +23,26 @@ public class goal : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject.CompareTag("pickUp")) //will destroy on pickup
+        if (collision.collider.gameObject.CompareTag("goalie"))
         {
-           
-            GameObject.Destroy(collision.collider.gameObject);
             Debug.Log("Goal");
-            restartCurrentLevel();
-        
-        }
+            gameObject.transform.position = originalPos;
+            rb.isKinematic = true;
+            count = 1;
+            Debug.Log(count);
+
+        if(count == 1)
+        {
+            rb.isKinematic = false;
+            count = 2;
+            Debug.Log(count);
+       }
+      }
     }
-    void  restartCurrentLevel()
+
+    public void ResetTheGame()
     {
-SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
 }
