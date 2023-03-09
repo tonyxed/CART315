@@ -25,7 +25,8 @@ public class movement : MonoBehaviour
         if(Physics.Raycast(ray, out hit))
         {
             if(hit.collider == planecollider)
-            transform.position = Vector3.MoveTowards(transform.position, hit.point, Time.deltaTime * 2);
+            transform.position = Vector3.MoveTowards(transform.position, hit.point, Time.deltaTime * 3);
+            transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
         }
         }
       
