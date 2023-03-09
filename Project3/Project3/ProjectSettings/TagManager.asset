@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - Floor
   - pickup
+  - enemy
   layers:
   - Default
   - TransparentFX
