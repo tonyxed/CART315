@@ -5,13 +5,15 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public float playerSpeed;
-    private Rigidbody2D rb;
+
+    private Rigidbody2D playerMovement;
+
     private Vector2 playerDirection;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        playerMovement = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -21,8 +23,9 @@ public class player : MonoBehaviour
         playerDirection = new Vector2(0, directionY).normalized;
     }
 
+    //updates every frame instead of only 1 frame
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(0, playerDirection.y * playerSpeed);
+        playerMovement.velocity = new Vector2(0, playerDirection.y * playerSpeed);
     }
 }
