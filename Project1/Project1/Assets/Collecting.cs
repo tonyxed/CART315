@@ -30,7 +30,7 @@ public class Collecting : MonoBehaviour
     }
     void OnGUI(){
         GUI.skin.label.fontSize = someInt;
-        GUI.Label (new Rect (0, 300, 500, 100), "Paper's collected :" + papers + "/3");
+        GUI.Label (new Rect (0, 400, 500, 100), "Paper's collected :" + papers + "/3");
     
     }
 }
