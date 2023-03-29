@@ -13,12 +13,13 @@ public class lookingAtSlender : MonoBehaviour
     public float audioLouder, audioLower;
     public AudioSource staticAudio;
     int someInt = 30;
+    public raycastSlender detetedScript;
 
 
     void Start()
     {
         color.a = 0f;
-        hp = 1000f;
+        hp = 100f;
 
     }
     void OnBecameVisible()
@@ -33,15 +34,18 @@ public class lookingAtSlender : MonoBehaviour
     void FixedUpdate()
     {
         staticImage.color = color;
-
-        if (looking == true)
+    if(detetedScript.detected == true)
+    {
+         if (looking == true)
         {
             color.a = color.a + drain * Time.deltaTime;
             hp = hp - hpDmg * Time.deltaTime;
             staticAudio.volume = staticAudio.volume + audioLouder * Time.deltaTime;
         }
+    }
+     
 
-        if (looking == false)
+        if (looking == false || detetedScript.detected == false)
         {
             color.a = color.a - recharge * Time.deltaTime;
             staticAudio.volume = staticAudio.volume - audioLower * Time.deltaTime;
@@ -54,7 +58,7 @@ public class lookingAtSlender : MonoBehaviour
 
     void OnGUI(){
         GUI.skin.label.fontSize = someInt;
-        GUI.Label (new Rect (400, 0, 500, 100), "Health :" + hp + "/1000");
+        GUI.Label (new Rect (400, 0, 500, 100), "Health :" + hp + "/100");
     
     }
 
