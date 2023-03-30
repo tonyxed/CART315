@@ -1738,3 +1738,81 @@ Received Import Request.
   path: Assets/MiniMapTexture.renderTexture
   artifactKey: Guid(ddd59f9abc9f2ed40b1c89f5444204a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MiniMapTexture.renderTexture using Guid(ddd59f9abc9f2ed40b1c89f5444204a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fbcc340fd317d58e65b9cce50c71a0') in 0.127867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.865263 seconds.
+  path: Assets/Abandoned buildings/Prefab
+  artifactKey: Guid(898eed1306c30f94aa772261c493c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab using Guid(898eed1306c30f94aa772261c493c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f748f72310ee58e75aaee0fa1daaf94') in 0.005480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707205 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings
+  artifactKey: Guid(5dacbcc3f541e744e9dc0e1e50b8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings using Guid(5dacbcc3f541e744e9dc0e1e50b8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89bd5aacc2ac0e8bacd20caea831518') in 0.004578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054198 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/birdhouse.prefab
+  artifactKey: Guid(6c43e81dbb4ea18428ee68fedb9a544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/birdhouse.prefab using Guid(6c43e81dbb4ea18428ee68fedb9a544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d281e382cc9cef3af1431c65337649') in 0.069611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_window.prefab
+  artifactKey: Guid(a22c9e7ef50fc764da43060141ad70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_window.prefab using Guid(a22c9e7ef50fc764da43060141ad70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ab1583fbbb458628d8f6a832f822e1') in 0.038117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_roof.prefab
+  artifactKey: Guid(f07c5dd2e7eea7f428902de53a5fe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_roof.prefab using Guid(f07c5dd2e7eea7f428902de53a5fe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3047823da6eb3251300f629de2ba688') in 0.012124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_enter.prefab
+  artifactKey: Guid(b975c7a470622c540b3e705556ab595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_enter.prefab using Guid(b975c7a470622c540b3e705556ab595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6fb05d226c39e83f9c9059605a0579') in 0.024833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab
+  artifactKey: Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab using Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a73770fd3325ced77d5eab99b8cd4c') in 0.016508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_bridge.prefab
+  artifactKey: Guid(035f738ac7ca0934aae975915ce9478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_bridge.prefab using Guid(035f738ac7ca0934aae975915ce9478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fd59a54d512b25527ece7b29c43793') in 0.017861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_wind_broke.prefab
+  artifactKey: Guid(0632adc36f3af70468bf597efa877832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_wind_broke.prefab using Guid(0632adc36f3af70468bf597efa877832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa1e9f29447161d2a466ed7f5514c2e') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/stove_burned.prefab
+  artifactKey: Guid(32cfb3e46f2c5c9499b88966b82caf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/stove_burned.prefab using Guid(32cfb3e46f2c5c9499b88966b82caf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d63752a96dfd49e97a3d19d29b743dc') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_ruined.prefab
+  artifactKey: Guid(b3a53a0efb7c50848b26f6eea91284bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_ruined.prefab using Guid(b3a53a0efb7c50848b26f6eea91284bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84924e4c6fa93bef0ca908653751fcf6') in 0.012500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/pole_wood.prefab
+  artifactKey: Guid(b56ffad1c0421324d82ef52ef263d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/pole_wood.prefab using Guid(b56ffad1c0421324d82ef52ef263d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed633c5c46ba6bb176dc76c98a41374') in 0.015558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/stove.prefab
+  artifactKey: Guid(7476bea84d0c5ee46babced461b99665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/stove.prefab using Guid(7476bea84d0c5ee46babced461b99665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5079eb6fa1cbb7bb315142355e8844d9') in 0.009746 seconds 
