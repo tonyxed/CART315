@@ -19,7 +19,7 @@ public class lookingAtSlender : MonoBehaviour
     void Start()
     {
         color.a = 0f;
-        hp = 100f;
+        hp = 1000f;
 
     }
     void OnBecameVisible()
@@ -58,7 +58,7 @@ public class lookingAtSlender : MonoBehaviour
 
     void OnGUI(){
         GUI.skin.label.fontSize = someInt;
-        GUI.Label (new Rect (400, 0, 500, 100), "Health :" + hp + "/100");
+        GUI.Label (new Rect (400, 0, 500, 100), "Health :" + hp + "/1000");
     
     }
 
