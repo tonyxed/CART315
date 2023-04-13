@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collecting : MonoBehaviour
 {
@@ -22,12 +23,14 @@ public class Collecting : MonoBehaviour
             paperPickUp.Play();
 
         }
+        if(papers == 1)
+        {
+            SceneManager.LoadScene("end");
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     void OnGUI(){
         GUI.skin.label.fontSize = someInt;
         GUI.Label (new Rect (0, 400, 500, 100), "Paper's collected :" + papers + "/3");

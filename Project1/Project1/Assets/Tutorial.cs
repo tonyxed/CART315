@@ -17,6 +17,6 @@ public class Tutorial : MonoBehaviour
     }
     void OnGUI(){
         
-        GUI.Label (new Rect (0, 0, 200, 200), "Press F for Flashlight!");
+        //GUI.Label (new Rect (0, 0, 200, 200), "Press F for Flashlight!");
     }
 }
