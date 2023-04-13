@@ -52,7 +52,9 @@ public class lookingAtSlender : MonoBehaviour
         }
         if(hp < 1)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("menu");
+             Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         }
     }
 
