@@ -23,7 +23,7 @@ public class Collecting : MonoBehaviour
             paperPickUp.Play();
 
         }
-        if(papers == 1)
+        if(papers == 3)
         {
             SceneManager.LoadScene("end");
             Cursor.visible = true;
